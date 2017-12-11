@@ -13,12 +13,13 @@ git clone https://github.com/xjakube2/gpg-key-generator/blob/master/gpg_key_gene
 chmod +x gpg_key_generator.sh
 ./gpg_key_generator.sh
 ```
-- List of private keys from your keyring (will be without this new generated key):
-```
-gpg -K
-```
 
 - List of all public keys from your keyring (will be without this new generated key):
 ```
-gpg -k
+gpg -k || gpg --list-keys
+```
+
+- List of private keys from your keyring (will be without this new generated key):
+```
+gpg -K
 ```
