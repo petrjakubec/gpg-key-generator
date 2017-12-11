@@ -15,10 +15,10 @@ chmod +x gpg_key_generator.sh
 ```
 - List of private keys from your keyring (will be without this new generated key):
 ```
-$ gpg -K
+gpg -K
 ```
 
 - List of all public keys from your keyring (will be without this new generated key):
 ```
-$ gpg -k
+gpg -k
 ```
