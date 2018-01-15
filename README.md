@@ -9,7 +9,8 @@ Keys are generated with hardcoded passphrase, otherwise we would get dialog wind
 
 Run script:
 ```
-git clone https://github.com/xjakube2/gpg-key-generator/blob/master/gpg_key_generator.sh
+git clone https://github.com/xjakube2/gpg-key-generator
+cd gpg-key-generator
 chmod +x gpg_key_generator.sh
 ./gpg_key_generator.sh
 ```
