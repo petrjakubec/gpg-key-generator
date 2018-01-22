@@ -1,6 +1,6 @@
 # gpg-key-generator
 
-Script for unnattanded generating gpg keys for later distribution on servers.
+Script for unattanded generating gpg keys for later distribution on servers.
 
 Keys will not be added to your keyring, will be in secret keyring instead.
 Part of the script is utility for entropy generating in order to create quality 4096 RSA gpg keys.
